@@ -1,0 +1,52 @@
+Nov 17, 2023 12:20:06 AM ClassRoster logError
+SEVERE: Error saving data to file: class_data.txt
+Nov 17, 2023 12:20:06 AM ClassRoster logError
+SEVERE: Student
+Nov 17, 2023 12:27:49 AM ClassRoster logError
+SEVERE: Invalid input. Please enter a valid integer for the grade.
+Nov 17, 2023 12:27:49 AM ClassRoster logError
+SEVERE: null
+Nov 17, 2023 12:29:18 AM ClassRoster logError
+SEVERE: Invalid input. Please enter a valid integer for the grade.
+Nov 17, 2023 12:29:18 AM ClassRoster logError
+SEVERE: Exception message is null.
+Nov 17, 2023 12:31:02 AM ClassRoster logError
+SEVERE: Invalid input. Please enter a valid integer for the grade.
+Nov 17, 2023 12:31:02 AM ClassRoster logError
+SEVERE: No exception message available.
+Nov 17, 2023 12:32:02 AM ClassRoster logError
+SEVERE: Invalid input. Please enter a valid integer for the grade.
+Nov 17, 2023 12:32:02 AM ClassRoster logError
+SEVERE: No exception message available.
+Nov 17, 2023 12:33:14 AM ClassRoster logError
+SEVERE: Error loading data from file: class_data.txt
+Nov 17, 2023 12:33:14 AM ClassRoster logError
+SEVERE: writing aborted; java.io.NotSerializableException: Student
+Nov 17, 2023 12:37:04 AM ClassRoster logError
+SEVERE: Error loading data from file: class_data.txt
+Nov 17, 2023 12:37:04 AM ClassRoster logError
+SEVERE: writing aborted; java.io.NotSerializableException: Student
+Nov 17, 2023 12:37:46 AM ClassRoster logError
+SEVERE: Invalid input. Please enter a valid integer for the grade.
+Nov 17, 2023 12:37:46 AM ClassRoster logError
+SEVERE: No additional exception information available.
+Nov 17, 2023 1:22:43 AM ClassRoster logError
+SEVERE: Error saving data to file: class_data.txt
+Nov 17, 2023 1:22:43 AM ClassRoster logError
+SEVERE: Student
+Nov 17, 2023 1:22:43 AM ClassRoster logError
+SEVERE: Exception occurred
+java.io.NotSerializableException: Student
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1200)
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+	at java.base/java.util.ArrayList.writeObject(ArrayList.java:948)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1072)
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+	at ClassRoster.saveToFile(ClassRoster.java:129)
+	at GradeTracker.main(GradeTracker.java:37)
+
