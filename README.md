@@ -1,5 +1,11 @@
 # Student Grade Tracker
 
+Name :- Mohit Sudhakar Gawande
+Company :- CODTECH IT SOLUTIONS
+ID :- CT08DS10269
+Duration :-  NOVEMBER 20th, 2024 to DECEMBER 20th, 2024
+Mentor :- Muzammil
+
 ## Description
 The Student Grade Tracker is a simple command-line tool that allows you to track the grades of students in a class. It provides functionality to add new students, record their grades, calculate average grades, and display the grade report.
 
